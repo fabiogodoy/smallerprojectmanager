@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.fabiogodoy.smallerprojectmanager" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SmallerProjectManager</name>
+    <description>
+        Uma simples app que utiliza Ionic, AngularJS e Cordova
+    </description>
+    <author email="fabio.godoy@fabiogodoy.com.br" href="http://fabiogodoy.com.br/">
+      Fábio Godoy
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <feature name="StatusBar">
+      <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </feature>
+</widget>
